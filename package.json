@@ -1,0 +1,19 @@
+{
+  "name": "super_console",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorius/super_console.git"
+  },
+  "author": "Jorius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorius/super_console/issues"
+  },
+  "homepage": "https://github.com/jorius/super_console#readme"
+}
