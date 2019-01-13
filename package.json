@@ -1,10 +1,10 @@
 {
   "name": "waveless",
-  "version": "1.1.5",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./src/test"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/jorius/waveless#readme",
   "dependencies": {
-    "chalk": "^1.1.3",
-    "colors": "^1.1.2"
-  }
+    "chalk": "^2.4.2",
+    "moment": "^2.23.0"
+  },
+  "keywords": [
+	  "console", "new", "better", "debug", "debugger", "logs"
+  ]
 }
