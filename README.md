@@ -73,3 +73,17 @@ If you set the options in the constructor and then you call the `setOptions(opti
 13-01-2019 18:38:50 | log | "string" | 0.002ms
 13-01-2019 18:38:50 | log | true | 0.002ms
 ```
+# Migration and update package
+The last version of this package in NPM was the 1.1.6 if you want to update to this release (2.0.0) the only thing you must do is instantiate the package and set it as constant like this:
+
+```javascript
+// Old version, don't do it this way
+var waveless = require('waveless');
+```
+
+Change your above code for this code below
+
+```javascript
+// New version
+const waveless = require('waveless')();
+```
