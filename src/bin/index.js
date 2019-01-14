@@ -11,11 +11,10 @@ const print = console.log.bind(this);
 
 // Default options
 const defaultOptions = {
-	filePath: './src/logs/log.log',
+	filePath: null,
 	indentSpaces: 4,
 	timestampFormat: 'DD-MM-YYYY HH:mm:ss',
-	writeInFile: true,
-	writeTimestamp: true
+	writeInFile: false
 };
 
 // Options keys
@@ -23,8 +22,7 @@ const optionsKeys = {
 	filePath: 'filePath',
 	indentSpaces: 'indentSpaces',
 	timestampFormat: 'timestampFormat',
-	writeInFile: 'writeInFile',
-	writeTimestamp: 'writeTimestamp'
+	writeInFile: 'writeInFile'
 };
 
 // Util constants
