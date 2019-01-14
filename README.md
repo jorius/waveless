@@ -41,7 +41,7 @@ The constructor has an argument called options which is an object with the follo
 | Option          | Default Value         | Description                                                   |
 | --------------- | --------------------- | ------------------------------------------------------------- |
 | writeInFile     | false                 | A boolean option to write all the logs into a file specified. |
-| timestampFormat | DD-MM-YYYY HH:mm:ss   | A [momentjs](https://momentjs.com/) date format string.       |
+| timestampFormat | DD-MM-YYYY HH:mm:ss   | A [momentjs](https://momentjs.com/docs/#/displaying/) date format string.       |
 | filePath        | null                  | The absolute file path to write all the logs.                 |
 | indentSpaces    | 4                     | The indent spaces of the log start.                           |
 
