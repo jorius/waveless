@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jorius/waveless.git"
+    "url": "https://github.com/jorius/waveless.git"
   },
   "author": "Jorius",
   "license": "MIT",
