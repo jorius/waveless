@@ -75,7 +75,7 @@ If you set the options in the constructor and then you call the `setOptions(opti
 13-01-2019 18:38:50 | log | true | 0.002ms
 ```
 # Migration and update package
-The last version of this [package](https://www.npmjs.com/package/waveless) in `npm` was the 1.1.6 if you want to update to this release (2.1.3) the only thing you must do is instantiate the package and set it as constant like this:
+The last version of this [package](https://www.npmjs.com/package/waveless) in `npm` was the 1.1.6 if you want to update to this release (2.1.6) the only thing you must do is instantiate the package and set it as constant like this:
 
 ```javascript
 // Old version, don't do it this way
