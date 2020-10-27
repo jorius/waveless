@@ -28,7 +28,6 @@ waveless.log("string", true);
 waveless.log(true, true);
 
 // The result from above will be like the image below
-
 ```
 
 ![objects](https://imgur.com/PvzxEyq.png)
@@ -44,12 +43,14 @@ The constructor has an argument called options which is an object with the follo
 | timestampFormat | DD-MM-YYYY HH:mm:ss   | A [momentjs](https://momentjs.com/docs/#/displaying/) date format string.       |
 | filePath        | null                  | The absolute file path to write all the logs.                 |
 | indentSpaces    | 4                     | The indent spaces of the log start.                           |
+<hr />
 
 ```javascript
 const waveless = require('waveless')({
     writeInFile: true,
     filePath: './logs/waveless/log',
-    timestampFormat: 'HH:mm:ss' // display on the console and write into the file only the time
+    // display on the console and write into the file only the time
+    timestampFormat: 'HH:mm:ss'
 });
 ```
 
@@ -74,7 +75,7 @@ If you set the options in the constructor and then you call the `setOptions(opti
 13-01-2019 18:38:50 | log | true | 0.002ms
 ```
 # Migration and update package
-The last version of this package in NPM was the 1.1.6 if you want to update to this release (2.0.0) the only thing you must do is instantiate the package and set it as constant like this:
+The last version of this [package](https://www.npmjs.com/package/waveless) in `npm` was the 1.1.6 if you want to update to this release (2.1.1) the only thing you must do is instantiate the package and set it as constant like this:
 
 ```javascript
 // Old version, don't do it this way
