@@ -34,6 +34,6 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/jorius"
   }
 }
